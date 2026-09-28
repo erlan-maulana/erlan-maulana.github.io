@@ -1,0 +1,41 @@
+# robots.txt untuk erlan-maulana.github.io
+# Pemilik : Erlan Maulana
+# Website : https://erlan-maulana.github.io
+
+User-agent: *
+Allow: /
+Disallow: /*?utm_
+Disallow: /*?ref=
+Disallow: /404.html
+
+# Akses penuh untuk crawler utama
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# Blokir scraper yang tidak berguna
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+Sitemap: https://erlan-maulana.github.io/sitemap.xml
+Host: https://erlan-maulana.github.io

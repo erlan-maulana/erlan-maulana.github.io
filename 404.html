@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#2563eb">
+<title>404 - Halaman Tidak Ditemukan. Erlan Maulana</title>
+<meta name="description" content="Halaman yang anda cari tidak ditemukan. Kembali ke beranda Erlan Maulana.">
+<meta name="robots" content="noindex, follow">
+<link rel="icon" type="image/png" href="https://i.imgur.com/YjFqsFG.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<script>
+(function(){try{var t=localStorage.getItem('theme');if(!t){t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
+</script>
+
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#ffffff;--bg-soft:#f7f8fa;--surface:#ffffff;
+  --border:#e6e8ec;--text:#0b0f19;--text-2:#2b3242;--muted:#6b7280;
+  --accent:#2563eb;--accent-soft:#eef4ff;--ring:rgba(37,99,235,.15);
+  --shadow-md:0 6px 24px rgba(11,15,25,.07);
+}
+[data-theme="dark"]{
+  --bg:#0a0d14;--bg-soft:#0f131c;--surface:#121826;
+  --border:#1e2637;--text:#e9edf5;--text-2:#c3cad8;--muted:#8f9aad;
+  --accent:#5b8cff;--accent-soft:#141d33;--ring:rgba(91,140,255,.2);
+  --shadow-md:0 6px 24px rgba(0,0,0,.45);
+}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased;min-height:100vh;display:grid;place-items:center;padding:24px;transition:background .3s,color .3s}
+.wrap{max-width:520px;text-align:center}
+.icon-wrap{width:88px;height:88px;border-radius:24px;background:var(--accent-soft);color:var(--accent);display:grid;place-items:center;margin:0 auto 26px;border:1px solid var(--ring)}
+.icon-wrap svg{width:44px;height:44px;stroke:currentColor;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.code{font-size:.78rem;font-weight:800;color:var(--accent);letter-spacing:.15em;text-transform:uppercase;margin-bottom:12px}
+h1{font-size:clamp(1.5rem,4.5vw,2rem);font-weight:800;letter-spacing:-.03em;line-height:1.2;margin-bottom:14px;color:var(--text)}
+p{color:var(--muted);font-size:.95rem;margin-bottom:28px}
+.btn-row{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 22px;border-radius:11px;font-weight:600;font-size:.9rem;text-decoration:none;transition:.2s}
+.btn-primary{background:var(--accent);color:#fff;box-shadow:0 4px 14px var(--ring)}
+.btn-primary:hover{background:#1d4fd8;transform:translateY(-2px)}
+.btn-ghost{background:var(--surface);color:var(--text);border:1px solid var(--border)}
+.btn-ghost:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-2px)}
+.btn svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.brand{margin-top:36px;font-size:.82rem;color:var(--muted)}
+.brand b{color:var(--text);font-weight:600}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <div class="icon-wrap">
+    <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><line x1="12" y1="8" x2="12" y2="13"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+  </div>
+
+  <div class="code">Error 404</div>
+  <h1>Halaman tidak ditemukan</h1>
+  <p>Sepertinya halaman yang anda cari sudah dipindahkan, dihapus, atau tidak pernah ada. Coba kembali ke beranda atau lihat project lainnya.</p>
+
+  <div class="btn-row">
+    <a href="/" class="btn btn-primary">
+      <svg viewBox="0 0 24 24"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+      Kembali ke Beranda
+    </a>
+    <a href="/#projects" class="btn btn-ghost">
+      <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
+      Lihat Project
+    </a>
+  </div>
+
+  <div class="brand">&copy; 2026 <b>Erlan Maulana</b> - Lanzz Project</div>
+</div>
+
+</body>
+</html>

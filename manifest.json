@@ -1,0 +1,65 @@
+{
+  "id": "/",
+  "name": "Erlan Maulana - Developer Sawarna, Banten",
+  "short_name": "Erlan Maulana",
+  "description": "Developer dan Digital Builder dari Sawarna Timur, Bayah, Lebak, Banten. Founder Lanzz Project: jasa website, game, APK Android, 1000+ game, AI assistant, dan 100+ tools digital.",
+  "lang": "id-ID",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "categories": ["business", "developer", "education", "games", "productivity"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "https://i.imgur.com/FEf8DRG.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://i.imgur.com/FEf8DRG.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://i.imgur.com/FEf8DRG.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Layanan",
+      "short_name": "Layanan",
+      "description": "Jasa pembuatan website, game, dan APK Android",
+      "url": "/#services"
+    },
+    {
+      "name": "Project",
+      "short_name": "Project",
+      "description": "Ekosistem Lanzz Project",
+      "url": "/#projects"
+    },
+    {
+      "name": "Artikel",
+      "short_name": "Artikel",
+      "description": "Tulisan seputar coding dan development",
+      "url": "/#blog"
+    },
+    {
+      "name": "Kontak",
+      "short_name": "Kontak",
+      "description": "Hubungi Erlan Maulana",
+      "url": "/#contact"
+    }
+  ],
+  "related_applications": [],
+  "screenshots": []
+}
