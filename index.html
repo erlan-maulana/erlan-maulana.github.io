@@ -945,6 +945,7 @@ footer{padding:56px 0 30px;border-top:1px solid var(--border);background:var(--b
     document.body.removeChild(ta);
   }
 
+  /* ===== CONTACT FORM (Web3Forms) ===== */
   var form=document.getElementById('contactForm');
   var ok=document.getElementById('formOk');
   form.addEventListener('submit',async function(e){
@@ -959,13 +960,21 @@ footer{padding:56px 0 30px;border-top:1px solid var(--border);background:var(--b
     submitBtn.disabled=true;
     submitBtn.innerHTML='Mengirim pesan...';
     try{
-      var response=await fetch('https://formsubmit.co/ajax/lanzz.project.id@gmail.com',{
+      var response=await fetch('https://api.web3forms.com/submit',{
         method:'POST',
         headers:{'Content-Type':'application/json','Accept':'application/json'},
-        body:JSON.stringify({name:nama,email:email,message:pesan,_subject:'Pesan baru dari website Lanzz Project'})
+        body:JSON.stringify({
+          access_key:'a0d745b0-d656-4b06-92ee-7606fb5ae7d4',
+          name:nama,
+          email:email,
+          message:pesan,
+          subject:'Pesan baru dari website Lanzz Project',
+          from_name:'Website Erlan Maulana',
+          replyto:email
+        })
       });
       var result=await response.json();
-      if(!response.ok||result.success!==true){throw new Error('Pengiriman belum berhasil');}
+      if(!response.ok||result.success!==true){throw new Error(result.message||'Pengiriman belum berhasil');}
       ok.classList.add('show');
       showToast('Pesan berhasil dikirim.');
       form.reset();
