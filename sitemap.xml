@@ -3,8 +3,8 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
   <url>
-    <loc>https://erlan-maulana.github.io/</loc>
-    <lastmod>2026-01-25</lastmod>
+    <loc>https://blog.lanzz.my.id/</loc>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -14,8 +14,8 @@
   </url>
 
   <url>
-    <loc>https://erlan-maulana.github.io/artikel-1.html</loc>
-    <lastmod>2026-01-15</lastmod>
+    <loc>https://blog.lanzz.my.id/artikel-1.html</loc>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -25,22 +25,22 @@
   </url>
 
   <url>
-    <loc>https://erlan-maulana.github.io/artikel-2.html</loc>
-    <lastmod>2026-01-20</lastmod>
+    <loc>https://blog.lanzz.my.id/artikel-2.html</loc>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://erlan-maulana.github.io/artikel-3.html</loc>
-    <lastmod>2026-01-25</lastmod>
+    <loc>https://blog.lanzz.my.id/artikel-3.html</loc>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://erlan-maulana.github.io/proposal.html</loc>
-    <lastmod>2026-01-25</lastmod>
+    <loc>https://blog.lanzz.my.id/proposal.html</loc>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
