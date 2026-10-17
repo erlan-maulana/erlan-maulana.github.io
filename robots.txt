@@ -1,6 +1,6 @@
-# robots.txt untuk erlan-maulana.github.io
+# robots.txt untuk blog.lanzz.my.id
 # Pemilik : Erlan Maulana
-# Website : https://erlan-maulana.github.io
+# Website : https://blog.lanzz.my.id
 
 User-agent: *
 Allow: /
@@ -37,5 +37,5 @@ Disallow: /
 User-agent: DotBot
 Disallow: /
 
-Sitemap: https://erlan-maulana.github.io/sitemap.xml
-Host: https://erlan-maulana.github.io
+Sitemap: https://blog.lanzz.my.id/sitemap.xml
+Host: https://blog.lanzz.my.id
