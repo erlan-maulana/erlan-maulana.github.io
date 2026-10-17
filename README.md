@@ -4,7 +4,7 @@
 
 Sawarna Timur, Bayah, Lebak, Banten, Indonesia
 
-Founder of [Lanzz Project](https://lanzz-project.github.io), sebuah ekosistem digital yang mencakup:
+Founder of [Lanzz Project](https://lanzz.my.id), sebuah ekosistem digital yang mencakup:
 
 - **Lanzz Services** : Jasa pembuatan website, game, dan APK Android
 - **Lanzz Play** : Games library dengan 1000+ game
@@ -52,7 +52,7 @@ Butuh jasa pembuatan website, game, atau aplikasi Android? Silakan hubungi saya.
 - Instagram : [@lanzz.offcl](https://www.instagram.com/lanzz.offcl)
 - Email Project : lanzz.project.id@gmail.com
 - Email Pribadi : id.erlan.maulana@gmail.com
-- Website : [https://lanzz-project.github.io](https://lanzz-project.github.io)
+- Website : [lanzz.my.id](https://lanzz.my.id)
 - Lokasi : Sawarna Timur, Bayah, Lebak, Banten, Indonesia
 
 ---
